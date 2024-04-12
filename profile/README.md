@@ -10,6 +10,7 @@ Once Node.js is installed, you can create a Pinniped application through its CLI
 
 ### Install the CLI
 To install the CLI tool, you can use the built-in package manager `npm`.
+More information about the CLI can be found at its [repository](https://github.com/Pinniped-BaaS/pinniped-cli).
 
 Run `npm install pinniped-cli -g`.
 
@@ -34,4 +35,4 @@ Similarly, to stop your application, run `pinniped stop`.
 If you need to update your application, i.e., adding function handlers for custom events, then run `pinniped update` to push the local changes in your project directory to the EC2's local directory.
 
 ### Extend Pinniped
-If you want to add custom routes and custom event handlers, check out the main documentation [here](https://github.com/Pinniped-BaaS/Pinniped).
+If you want to add custom routes and custom event handlers, check out the main documentation [here](https://github.com/Pinniped-BaaS/pinniped).
