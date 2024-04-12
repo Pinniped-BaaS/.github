@@ -24,7 +24,7 @@ First, you need to set up your AWS CLI tool. The instructions can be found [here
 2. Optional: update the variables in the given `.env` file if you want to specify the domain and port for the application to run on.
 3. Run `pinniped deploy` to deploy your application to an EC2 instance.
 
-After the following steps are finished, your application is deployed on an AWS EC2 instance. To monitor the backend, you can go to your admin dashboard at the relative path, `/_`, of your host.
+After the following steps are finished, your application is deployed on an AWS EC2 instance. To monitor the backend, go to your admin dashboard at the relative path, `/_`.
 
 ### Managing Your Application
 To start your application on EC2, run `pinniped start`.
