@@ -1,5 +1,5 @@
 # Overview
-Pinniped is an open-source backend that prioritizes being portable, extensible, and user-friendly. To learn more about Pinniped, read our case study here.
+Pinniped is an open-source backend that prioritizes being portable, extensible, and user-friendly. To learn more about Pinniped's development, read our case study [here]().
 
 ## Getting Started
 ### Prerequisites
@@ -12,7 +12,7 @@ Once Node.js is installed, you can create a Pinniped application through its CLI
 To install the CLI tool, you can use the built-in package manager `npm`.
 More information about the CLI can be found at its [repository](https://github.com/Pinniped-BaaS/pinniped-cli).
 
-Run `npm install pinniped-cli -g`.
+1. Run `npm install pinniped-cli -g`.
 
 ### Create a Pinniped Application
 1. Go to the directory where you'd like to create your application.
