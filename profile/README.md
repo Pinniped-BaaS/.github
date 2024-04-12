@@ -1,12 +1,38 @@
-## Pinniped
+# Overview
+Pinniped is an open-source backend that prioritizes being portable, extensible, and user-friendly. To learn more about Pinniped's development, read our case study [here]().
 
-<!--
+## Getting Started
+### Prerequisites
+To create a Pinniped application the following must be installed:
+* Node.js
 
-**Here are some ideas to get you started:**
+Once Node.js is installed, you can create a Pinniped application through its CLI tool.
 
-🙋‍♀️ A short introduction - what is your organization all about?
-🌈 Contribution guidelines - how can the community get involved?
-👩‍💻 Useful resources - where can the community find your docs? Is there anything else the community should know?
-🍿 Fun facts - what does your team eat for breakfast?
-🧙 Remember, you can do mighty things with the power of [Markdown](https://docs.github.com/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
--->
+### Install the CLI
+To install the CLI tool, you can use the built-in package manager `npm`.
+More information about the CLI can be found at its [repository](https://github.com/Pinniped-BaaS/pinniped-cli).
+
+1. Run `npm install pinniped-cli -g`.
+
+### Create a Pinniped Application
+1. Go to the directory where you'd like to create your application.
+2. Run `pinniped create`.
+
+### Deploy a Pinniped Application
+First, you need to set up your AWS CLI tool. The instructions can be found [here](https://docs.aws.amazon.com/cli/latest/userguide/sso-configure-profile-token.html#sso-configure-profile-prereqs).
+
+1. Run `pinniped provision` to create and run an EC2 instance.
+2. Optional: update the variables in the given `.env` file if you want to specify the domain and port for the application to run on.
+3. Run `pinniped deploy` to deploy your application to an EC2 instance.
+
+After the following steps are finished, your application is deployed on an AWS EC2 instance. To monitor the backend, go to your admin dashboard at the relative path, `/_`.
+
+### Managing Your Application
+To start your application on EC2, run `pinniped start`.
+
+Similarly, to stop your application, run `pinniped stop`.
+
+If you need to update your application, i.e., adding function handlers for custom events, then run `pinniped update` to push the local changes in your project directory to the EC2's local directory.
+
+### Extend Pinniped
+If you want to add custom routes and custom event handlers, check out the main documentation [here](https://github.com/Pinniped-BaaS/pinniped).
