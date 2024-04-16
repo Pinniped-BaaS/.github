@@ -28,7 +28,7 @@ First, you need to set up your AWS CLI tool. The instructions can be found [here
 After the following steps are finished, your application is deployed on an AWS EC2 instance. To monitor the backend, go to your admin dashboard at the relative path, `/_`.
 
 ### Managing Your Application
-To start your application on EC2, run `pinniped start`.
+To start your application on the provisioned EC2, run `pinniped start`.
 
 Similarly, to stop your application, run `pinniped stop`.
 
