@@ -35,4 +35,4 @@ Similarly, to stop your application, run `pinniped stop`.
 If you need to update your application, i.e., adding function handlers for custom events, then run `pinniped update` to push the local changes in your project directory to the EC2's local directory.
 
 ### Extend Pinniped
-If you want to add custom routes and custom event handlers, check out the main documentation [here](https://github.com/Pinniped-BaaS/pinniped).
+If you want to add custom routes and custom event handlers, check out the main documentation [here](https://github.com/pinniped-baas/pinniped).
