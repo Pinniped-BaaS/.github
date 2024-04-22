@@ -39,6 +39,9 @@ First, you need to set up your AWS CLI tool. The instructions can be found [here
 
 After the following steps are finished, your application is deployed on an AWS EC2 instance.
 
+**Security** 
+By default the EC2 instance is configured to only accept http and https traffic (ports 80 and 443) as well as SSH traffic (port 22). Please do further security configuration and hardening of the instance as you require.
+
 ### Managing Your Application
 To monitor the backend, go to your admin dashboard at the relative path, `/_`.
 
