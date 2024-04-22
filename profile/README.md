@@ -18,21 +18,29 @@ More information about the CLI can be found at its [repository](https://github.c
 1. Go to the directory where you'd like to create your application.
 2. Run `pinniped create`.
 
+### Extend Pinniped
+If you want to add custom routes and custom event handlers, check out the main documentation [here](https://github.com/pinniped-baas/pinniped).
+
 ### Deploy a Pinniped Application
+Once your project is created and customized to your liking, you can move the project to a VPS that you've configured and run it. 
+
+**Alternatively, you can use the CLI tool to deploy it to AWS following these instructions:**
 First, you need to set up your AWS CLI tool. The instructions can be found [here](https://docs.aws.amazon.com/cli/latest/userguide/sso-configure-profile-token.html#sso-configure-profile-prereqs).
 
 1. Run `pinniped provision` to create and run an EC2 instance.
 2. Optional: update the variables in the given `.env` file if you want to specify the domain and port for the application to run on.
 3. Run `pinniped deploy` to deploy your application to an EC2 instance.
 
-After the following steps are finished, your application is deployed on an AWS EC2 instance. To monitor the backend, go to your admin dashboard at the relative path, `/_`.
+After the following steps are finished, your application is deployed on an AWS EC2 instance.
 
 ### Managing Your Application
+To monitor the backend, go to your admin dashboard at the relative path, `/_`.
+
+**If using AWS CLI deployment:**
 To start your application on the provisioned EC2, run `pinniped start`.
 
 Similarly, to stop your application, run `pinniped stop`.
 
 If you need to update your application, i.e., adding function handlers for custom events, then run `pinniped update` to push the local changes in your project directory to the EC2's local directory.
 
-### Extend Pinniped
-If you want to add custom routes and custom event handlers, check out the main documentation [here](https://github.com/pinniped-baas/pinniped).
+
