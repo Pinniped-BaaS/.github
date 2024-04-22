@@ -22,7 +22,7 @@ More information about the CLI can be found at its [repository](https://github.c
 If you want to add custom routes and custom event handlers, check out the main documentation [here](https://github.com/pinniped-baas/pinniped).
 
 ### Deploy a Pinniped Application
-Once your project is created and customized to your liking, you can move the project to a VPS that you've configured and run it. 
+Once your project is created and customized to your liking, you can move the project to a VPS that you've configured and start the server by running `index.js`.
 
 **Alternatively, you can use the CLI tool to deploy it to AWS following these instructions:**
 First, you need to set up your AWS CLI tool. The instructions can be found [here](https://docs.aws.amazon.com/cli/latest/userguide/sso-configure-profile-token.html#sso-configure-profile-prereqs).
