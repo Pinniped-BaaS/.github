@@ -1,6 +1,12 @@
 # Overview
 Pinniped is an open-source backend that prioritizes being portable, extensible, and user-friendly. To learn more about Pinniped's development, read our case study [here](https://pinniped-baas.dev).
 
+Pinniped is comprised of several tools, check out their READMEs after reading this overview:
+ * [Core Application](https://github.com/pinniped-baas/pinniped)
+ * [Admin UI](https://github.com/pinniped-baas/pinniped-admin-ui)
+ * [SDK](https://github.com/pinniped-baas/pinniped-sdk)
+ * [CLI Tool](https://github.com/pinniped-baas/pinniped-cli)
+
 ## Getting Started
 ### Prerequisites
 To create a Pinniped application the following must be installed:
