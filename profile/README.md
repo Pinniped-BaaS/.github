@@ -1,5 +1,5 @@
 # Overview
-Pinniped is an open-source backend that prioritizes being portable, extensible, and user-friendly. To learn more about Pinniped's development, read our case study [here](pinniped-baas.dev).
+Pinniped is an open-source backend that prioritizes being portable, extensible, and user-friendly. To learn more about Pinniped's development, read our case study [here](https://pinniped-baas.dev).
 
 ## Getting Started
 ### Prerequisites
